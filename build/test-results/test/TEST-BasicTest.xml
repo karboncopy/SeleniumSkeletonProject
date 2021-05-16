@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BasicTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-15T14:46:54" hostname="LAPTOP-MGI9IU73" time="6.308">
+<testsuite name="BasicTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-16T13:10:54" hostname="LAPTOP-MGI9IU73" time="11.324">
   <properties/>
-  <testcase name="startTest" classname="BasicTest" time="6.308"/>
+  <testcase name="startTest" classname="BasicTest" time="11.324"/>
   <system-out><![CDATA[https://www.google.com/
 ]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 27979
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 15, 2021 5:46:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1621170655452	geckodriver	INFO	Listening on 127.0.0.1:6702
+1621170656394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DANIEL~1\\AppData\\Local\\Temp\\rust_mozprofileQo4o4T"
+1621170657204	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621170661724	Marionette	INFO	Listening on port 59054
+1621170662264	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 16, 2021 4:11:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+1621170663903	Marionette	INFO	Stopped listening on port 59054
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 ]]></system-err>
 </testsuite>
